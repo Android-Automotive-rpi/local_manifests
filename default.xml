@@ -25,7 +25,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>  
 
-  
+  <project path="kernel/arpi" name="kernel_arpi" revision="arpi-5.15" remote="AndroidAutomotiveArpi"/>
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" revision="arpi-13" remote="AndroidAutomotiveArpi"/>
   <project path="hardware/interfaces" name="hardware_interfaces" revision="arpi-13" remote="AndroidAutomotiveArpi"/>
   <project path="hardware/arpi" name="hardware_arpi" revision="arpi-12" remote="AndroidAutomotiveArpi"/>
